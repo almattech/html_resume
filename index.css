@@ -199,8 +199,13 @@
   }
 }
 
-@media and (max-width: 600px){
+@media screen and (max-width: 500px){
   .sections {
-    display:block;
+    display:flex;
+    flex-direction: column;
+
+    .right{
+      border-left: none ! important;
+    }
   }
 }

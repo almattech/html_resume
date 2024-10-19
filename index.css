@@ -52,7 +52,7 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 50px;
-      /* border-right: 1px solid gray; */
+      border-right: 1px solid gray;
 
       .contact {
         display: flex;
@@ -136,7 +136,7 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 50px;
-      border-left: 1px solid gray;
+     /* border-left: 1px solid gray;*/
 
       .about {
         display: flex;
@@ -205,7 +205,6 @@
     flex-direction: column;
 
     .right{
-      border-left: none ! important;
       width: 80vw;
 
       & > *{
@@ -214,6 +213,7 @@
     }
 
     .left{
+      border-right: none !important;
       width: 80vw;
       & > *{
         width: 80vw;

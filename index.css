@@ -135,7 +135,7 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: space-between;
-      gap: 30px;
+      gap: 50px;
       border-left: 1px solid gray;
 
       .about {
@@ -164,7 +164,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        gap: 10px;
+        gap: 15px;
 
         .heading {
           color: gray;
@@ -178,11 +178,11 @@
           flex-direction: column;
           align-items: flex-start;
           justify-content: center;
-          gap: 10px;
-          margin-top: 20px;
+          gap: 5px;
+       /*   margin-top: 20px; */
 
           ul {
-            margin-top: 15px;
+           /* margin-top: 15px; */
             padding: 0 0 0 50px;
             display: flex;
             flex-direction: column;

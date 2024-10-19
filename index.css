@@ -209,13 +209,13 @@
       width: 80vw;
 
       & > *{
-        width: 100%;
+        width: 80vw;
     }
 
     .left{
       width: 80vw;
       & > *{
-        width: 100%;
+        width: 80vw;
       }
   }
 }

@@ -206,6 +206,16 @@
 
     .right{
       border-left: none ! important;
+      width: 80vw;
+
+      & > *{
+        width: 100%;
     }
+
+    .left{
+      width: 80vw;
+      & > *{
+        width: 100%;
+      }
   }
 }
